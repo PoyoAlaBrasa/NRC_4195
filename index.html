@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="Pie.css">
+<head>
+  <meta charset="UTF-8">
+<title>Mi Web Site</title>
+</head>
+<body>
+<!--Menu-->
+<nav class="topheader">
+<a href="" class="logo">
+<img width="100" src="imagenes/Logo_of_TWICE.svg.png" alt="">
+</a>
+<ul class="Menu-Horizontal">
+<li><a href="">Explorar</a></li>
+<li><a href="">Twice</a>
+<ul class="Menu-Vertical">
+<li><a href="">Miembros</a></li>
+<li><a href="">Solo</a></li>
+<li><a href="">Eventos</a></li>
+<li><a href="">Proyectos de Twice</a></li>
+</ul>
+</li>
+<li><a href="">Discografia</a></li>
+<li><a href="">Videografia</a></li>
+<li><a href="">Otros</a></li>
+</ul>
+</nav>
+<!--SECCION BANCA-->
+<section class="seccion-banca">
+<div class="div-gral-banca">
+<div class="div-banca-texto">
+<h2>Información</h2>
+<p>
+Twice (en hangul, 트와이스; romanización revisada, Teuwaiseu; estilizado como TWICE) es un grupo femenino surcoreano formado 
+por JYP Entertainment a través del programa llamado Sixteen. El grupo consta de nueve integrantes: Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, 
+Dahyun, Chaeyoung y Tzuyu. Twice debutó oficialmente el 20 de octubre de 2015 con el lanzamiento del miniálbum The Story Begins.[4]
+</p>
+</div>
+<div class="div-banca-img">
+<img src="imagenes/This_Is_For_Unpredictable_2.webp">
+</div>
+</div>
+</section>
+<!--SECCION PROMOCIONES-->
+<section class="seccion-promo">
+<div class="div-gral-promo">
+<div class="div-promo-texto">
+<h2>Ultimo video</h2>
+</div>
+<div class="div-promo-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eHHQaoEW30Q?si=9P7wZw99SitfOayD" title="YouTube video 
+player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</section>
+
+<!--Seccion Ayuda-->
+
+  <section class="Ayuda-general">
+        <div class="div-ayuda-formulario">
+            <h2>Formulario</h2>
+            <p>En este formulario se va a recopilar la información sobre su duda o queja. Sientase libre de escribirnos</p>
+            <p>Por favor, complete todos los campos</p>
+            <form class="Formulario">
+                 <div class="Campo">
+                    <label for="Nombre">Nombre: </label>
+                    <input type="text" id="tb-nombre" name="tb-nombre" placeholder="Ingrese su nombre">
+                    <label for="Apellido">Apellido: </label>
+                    <input type="text" id="tb-apellido" name="tb-apellido" placeholder="Ingrese su apellido">
+                    <label for="Direccion">Direccion: </label>
+                    <input type="text" id="tb-direc" name="tb-direc" placeholder="Ingrese su direccion">
+                 </div>
+
+                <!-- Lista Desplegable-->
+                <div class="campo">
+                    <label for="Nombre">Pais: </label>
+                    <select id="pais" name="pais">
+                        <option value="Peru">Peru</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Colombia">Colombia</option>
+                    </select>
+                </div>
+
+
+                <!-- Check box-->
+                <div class="campo">
+                  <label>Motivo de la consulta: </label>
+                   <ul class="Lista-checkbox">
+                    <li><label><input type="checkbox" name="motivos" value="a">Problema con el registro</label></li>
+                    <li><label><input type="checkbox" name="motivos" value="b">Problema con un Proyecto</label></li>
+                    <li><label><input type="checkbox" name="motivos" value="c">Problema con el inicio de sesion</label></li>
+                   </ul> 
+                </div>
+
+  <!-- Radio-->
+
+  <div class="campo">
+        <label>Sexo:</label>
+        <ul class="Lista-radio">
+            <li><p><input type="radio" name="motivos" value="a">Masculino</p></li>
+                <li><p><input type="radio" name="motivos" value="b">Femenino</p></li>
+            </ul>
+            </div>
+
+            <div class="Button">
+                <!-- Boton -->
+
+            <button type="Submit">Enviar</button>
+            </div>
+            </form>
+        </div>
+
+    </section>
+</div>
+
+
+
+<!--Checkbox-->
+<div class="campo">
+<label>Motivo de la consulta: </label>
+<ul class="Lista-checkbox">
+<li><label><input type="checkbox" name="motivos" value="a">Problema con el registro</label></li>
+<li><label><input type="checkbox" name="motivos" value="b">Problema con un Proyecto</label></li>
+<li><label><input type="checkbox" name="motivos" value="c">Problema con el inicio de sesion</label></li>
+</ul>
+</div>
+<!-- Radio-->
+<div class="campo">
+<label>Sexo:</label>
+<ul class="Lista-radio">
+<li><p><input type="radio" name="motivos" value="a">Masculino</p></li>
+<li><p><input type="radio" name="motivos" value="b">Femenino</p></li>
+</ul>
+</div>
+<div class="Button">
+<!-- Boton -->
+<button type="Submit">Enviar</button>
+</div>
+</form>
+</div>
+</section>
+
+  <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="imagenes/Logo_of_TWICE.svg.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>TWICE</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="documentos/obtenerDocumento.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="documentos/obtenerDocumento.pdf">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="documentos/obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+</body>
+</html>
